@@ -65,7 +65,7 @@ namespace OOP_Lab3
             double a = 0;
             double b = 0;
             double z = 0;
-            double x = Convert.ToDouble(textBox_x.Text);
+            float x = (float)Convert.ToDouble(textBox_x.Text);
             double eva = Math.E;
             double a3 = 0;
             double result = 0;
@@ -111,6 +111,8 @@ namespace OOP_Lab3
                 double f = ((z * x) + a);
                 double cos1 = Math.Cos(f);
                 result = (a * sin_25) + (cos1 * b);
+                label5.Text = result.ToString();
+
 
             }
 
@@ -120,13 +122,16 @@ namespace OOP_Lab3
                 double sec2 = Math.Pow(sec1, 2);
                 double sin2 = Math.Sin(a + (z * x));
                 result = (sec2 - sin2);
+                label5.Text = result.ToString();
 
             }
 
             if ( x > b )
             {
-                double th = ((a + (b * x) + z) -b);
+                double th = ((a + (b * x) + z) - x);
                 result = Math.Pow(th, (1 / 2));
+
+                label5.Text = result.ToString();
 
             }
         }
