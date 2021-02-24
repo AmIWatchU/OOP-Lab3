@@ -68,6 +68,7 @@ namespace OOP_Lab3
             double x = Convert.ToDouble(textBox_x.Text);
             double eva = Math.E;
             double a3 = 0;
+            double result = 0;
 
 
             switch (combo_b.SelectedIndex)
@@ -88,6 +89,7 @@ namespace OOP_Lab3
                 a = 1.9;
                  a3 = Math.Pow(a, 3);
 
+
             if (z1.Checked == true)
             {
                 z = Math.Pow(eva, x);
@@ -100,6 +102,32 @@ namespace OOP_Lab3
             if (z3.Checked == true)
             {
                 z = Math.Pow(eva, 3);
+            }
+
+            if (x < a3)
+            {
+                double sin1 = Math.Sin(x);
+                double sin_25 = Math.Pow(sin1, 2.5);
+                double f = ((z * x) + a);
+                double cos1 = Math.Cos(f);
+                result = (a * sin_25) + (cos1 * b);
+
+            }
+
+            if ( b >= x )
+            {
+                double sec1 = (a + (b * x));
+                double sec2 = Math.Pow(sec1, 2);
+                double sin2 = Math.Sin(a + (z * x));
+                result = (sec2 - sin2);
+
+            }
+
+            if ( x > b )
+            {
+                double th = ((a + (b * x) + z) -b);
+                result = Math.Pow(th, (1 / 2));
+
             }
         }
 
@@ -114,6 +142,11 @@ namespace OOP_Lab3
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }

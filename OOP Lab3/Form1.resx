@@ -562,7 +562,7 @@
     <value>4, 3, 4, 3</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>632, 178</value>
+    <value>592, 177</value>
   </data>
   <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
   <data name="pictureBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
@@ -578,7 +578,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>14</value>
   </data>
   <data name="a1.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -608,7 +608,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;a1.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>13</value>
   </data>
   <data name="a2.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -638,7 +638,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;a2.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>12</value>
   </data>
   <data name="a_3.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -668,7 +668,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;a_3.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>11</value>
   </data>
   <data name="dad.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -701,7 +701,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dad.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>10</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -731,7 +731,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="combo_b.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>188, 250</value>
@@ -755,7 +755,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;combo_b.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="z1.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -785,7 +785,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;z1.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="z2.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -815,7 +815,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;z2.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="z3.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -845,7 +845,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;z3.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -875,7 +875,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="textBox_x.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>188, 364</value>
@@ -899,7 +899,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_x.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
@@ -932,19 +932,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, System.Private.CoreLib">
     <value>True</value>
   </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Times New Roman, 18pt</value>
+  </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>15, 463</value>
+    <value>15, 465</value>
   </data>
   <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>63, 20</value>
+    <value>105, 34</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>13</value>
@@ -962,7 +965,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>467, 364</value>
@@ -989,33 +992,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
-  </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing.Common">
-    <value>Times New Roman, 12pt</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>108, 463</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>0, 22</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
@@ -1025,7 +1001,7 @@
     <value>10, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>681, 513</value>
+    <value>623, 513</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing.Common">
     <value>Times New Roman, 10.8pt</value>
