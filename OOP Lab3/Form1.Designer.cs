@@ -61,7 +61,7 @@ namespace OOP_Lab3
             this.a1.Name = "a1";
             this.a1.TabStop = true;
             this.a1.UseVisualStyleBackColor = true;
-            this.a1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            
             // 
             // a2
             // 
@@ -81,13 +81,13 @@ namespace OOP_Lab3
             // 
             resources.ApplyResources(this.dad, "dad");
             this.dad.Name = "dad";
-            this.dad.Click += new System.EventHandler(this.label1_Click);
+            
             // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            
             // 
             // combo_b
             // 
@@ -95,7 +95,7 @@ namespace OOP_Lab3
             this.combo_b.FormattingEnabled = true;
             resources.ApplyResources(this.combo_b, "combo_b");
             this.combo_b.Name = "combo_b";
-            this.combo_b.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            
             // 
             // z1
             // 
@@ -108,14 +108,14 @@ namespace OOP_Lab3
             resources.ApplyResources(this.z2, "z2");
             this.z2.Name = "z2";
             this.z2.UseVisualStyleBackColor = true;
-            this.z2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            
             // 
             // z3
             // 
             resources.ApplyResources(this.z3, "z3");
             this.z3.Name = "z3";
             this.z3.UseVisualStyleBackColor = true;
-            this.z3.CheckedChanged += new System.EventHandler(this.z3_CheckedChanged);
+            
             // 
             // label2
             // 
@@ -126,20 +126,20 @@ namespace OOP_Lab3
             // 
             resources.ApplyResources(this.textBox_x, "textBox_x");
             this.textBox_x.Name = "textBox_x";
-            this.textBox_x.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            
             // 
             // label3
             // 
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            
             // 
             // label4
             // 
             resources.ApplyResources(this.label4, "label4");
             this.label4.ForeColor = System.Drawing.Color.Red;
             this.label4.Name = "label4";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            
             // 
             // button1
             // 
@@ -175,7 +175,7 @@ namespace OOP_Lab3
             this.Controls.Add(this.a1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -20,52 +20,17 @@ namespace OOP_Lab3
             combo_b.Items.Add("4.5");
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
+       
 
-        }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
             double a = 0;
             double b = 0;
             double z = 0;
-            float x = (float)Convert.ToDouble(textBox_x.Text);
+            float x = float.Parse(textBox_x.Text);
             double eva = Math.E;
             double a3 = 0;
             double result = 0;
@@ -102,9 +67,11 @@ namespace OOP_Lab3
             if (z3.Checked == true)
             {
                 z = Math.Pow(eva, 3);
+                
             }
 
-            if (x < a3)
+            if (x < a3) // 1st equation
+
             {
                 double sin1 = Math.Sin(x);
                 double sin_25 = Math.Pow(sin1, 2.5);
@@ -116,7 +83,7 @@ namespace OOP_Lab3
 
             }
 
-            if ( b >= x )
+            if ( b >= x) // 2nd equation
             {
                 double sec1 = (a + (b * x));
                 double sec2 = Math.Pow(sec1, 2);
@@ -126,7 +93,7 @@ namespace OOP_Lab3
 
             }
 
-            if ( x > b )
+            if ( x > b) // 3rd equation
             {
                 double th = ((a + (b * x) + z) - x);
                 result = Math.Pow(th, (1 / 2));
@@ -136,24 +103,7 @@ namespace OOP_Lab3
             }
         }
 
-        private void label1_Click_1(object sender, EventArgs e)
-        {
+    
 
-        }
-
-        private void z3_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
