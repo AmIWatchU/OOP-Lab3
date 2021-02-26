@@ -61,7 +61,6 @@ namespace OOP_Lab3
             this.a1.Name = "a1";
             this.a1.TabStop = true;
             this.a1.UseVisualStyleBackColor = true;
-            
             // 
             // a2
             // 
@@ -81,13 +80,11 @@ namespace OOP_Lab3
             // 
             resources.ApplyResources(this.dad, "dad");
             this.dad.Name = "dad";
-            
             // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            
             // 
             // combo_b
             // 
@@ -95,7 +92,6 @@ namespace OOP_Lab3
             this.combo_b.FormattingEnabled = true;
             resources.ApplyResources(this.combo_b, "combo_b");
             this.combo_b.Name = "combo_b";
-            
             // 
             // z1
             // 
@@ -108,14 +104,12 @@ namespace OOP_Lab3
             resources.ApplyResources(this.z2, "z2");
             this.z2.Name = "z2";
             this.z2.UseVisualStyleBackColor = true;
-            
             // 
             // z3
             // 
             resources.ApplyResources(this.z3, "z3");
             this.z3.Name = "z3";
             this.z3.UseVisualStyleBackColor = true;
-            
             // 
             // label2
             // 
@@ -126,20 +120,17 @@ namespace OOP_Lab3
             // 
             resources.ApplyResources(this.textBox_x, "textBox_x");
             this.textBox_x.Name = "textBox_x";
-            
             // 
             // label3
             // 
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            
             // 
             // label4
             // 
             resources.ApplyResources(this.label4, "label4");
             this.label4.ForeColor = System.Drawing.Color.Red;
             this.label4.Name = "label4";
-            
             // 
             // button1
             // 
@@ -175,7 +166,6 @@ namespace OOP_Lab3
             this.Controls.Add(this.a1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
-            
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

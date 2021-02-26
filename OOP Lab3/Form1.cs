@@ -30,6 +30,9 @@ namespace OOP_Lab3
             double a = 0;
             double b = 0;
             double z = 0;
+            if (textBox_x.Text.IndexOf('.') != -1)
+                textBox_x.Text = textBox_x.Text.Replace('.', ',');
+            
             float x = float.Parse(textBox_x.Text);
             double eva = Math.E;
             double a3 = 0;
@@ -78,7 +81,7 @@ namespace OOP_Lab3
                 double f = ((z * x) + a);
                 double cos1 = Math.Cos(f);
                 result = (a * sin_25) + (cos1 * b);
-                label5.Text = result.ToString();
+                
 
 
             }
@@ -89,18 +92,19 @@ namespace OOP_Lab3
                 double sec2 = Math.Pow(sec1, 2);
                 double sin2 = Math.Sin(a + (z * x));
                 result = (sec2 - sin2);
-                label5.Text = result.ToString();
+                
 
             }
 
             if ( x > b) // 3rd equation
             {
                 double th = ((a + (b * x) + z) - x);
-                result = Math.Pow(th, (1 / 2));
+                result = Math.Pow(th, (0.5));
 
-                label5.Text = result.ToString();
+                
 
             }
+            label5.Text = result.ToString();
         }
 
     
