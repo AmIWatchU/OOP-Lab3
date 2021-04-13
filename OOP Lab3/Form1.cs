@@ -15,30 +15,28 @@ namespace OOP_Lab3
         public Form1()
         {
             InitializeComponent();
+            // ComboBox
             combo_b.Items.Add("1.1");
             combo_b.Items.Add("2.3");
             combo_b.Items.Add("4.5");
         }
 
-       
-
-
-        
 
         private void button1_Click(object sender, EventArgs e)
         {
             double a = 0;
             double b = 0;
             double z = 0;
+            //Метод щоб можна було працювати з дробами
             if (textBox_x.Text.IndexOf('.') != -1)
                 textBox_x.Text = textBox_x.Text.Replace('.', ',');
             
             float x = float.Parse(textBox_x.Text);
             double eva = Math.E;
-            double a3 = 0;
+            double a3 = 0; // a^3
             double result = 0;
 
-
+            //ComboBox
             switch (combo_b.SelectedIndex)
             {
                 case 0: b = 1.1; break;
@@ -47,6 +45,7 @@ namespace OOP_Lab3
 
             }
 
+            // RadioButton
             if (a1.Checked)
                 a = 0.8;
                 a3 = Math.Pow(a, 3);
@@ -57,20 +56,21 @@ namespace OOP_Lab3
                 a = 1.9;
                  a3 = Math.Pow(a, 3);
 
-
+            //CheackBox
             if (z1.Checked == true)
             {
                 z = Math.Pow(eva, x);
             }
+
             if (z2.Checked == true)
             {
                 double x2 = Math.Pow(x, 2);
                 z = Math.Pow(eva, x2);
             }
+
             if (z3.Checked == true)
             {
-                z = Math.Pow(eva, 3);
-                
+                z = Math.Pow(eva, 3);    
             }
 
             if (x < a3) // 1st equation
@@ -81,12 +81,9 @@ namespace OOP_Lab3
                 double f = ((z * x) + a);
                 double cos1 = Math.Cos(f);
                 result = (a * sin_25) + (cos1 * b);
-                
-
-
             }
 
-            if ( b >= x) // 2nd equation
+            if ( b >= x && x <= a3)  // 2nd equation
             {
                 double sec1 = (a + (b * x));
                 double sec2 = Math.Pow(sec1, 2);
@@ -100,9 +97,6 @@ namespace OOP_Lab3
             {
                 double th = ((a + (b * x) + z) - x);
                 result = Math.Pow(th, (0.5));
-
-                
-
             }
             label5.Text = result.ToString();
         }
